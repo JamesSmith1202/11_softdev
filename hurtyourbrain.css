@@ -1,0 +1,51 @@
+body {
+    background-color: red;
+    background-image: url("frog.gif");
+    text-align: center;
+    font: 'Comic Sans';
+    line-height: 200%;
+    white-space: nowrap;
+    -webkit-animation: sideways 0.1s linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 4px 4px rgb(38, 0, 255);
+}
+
+h1 {
+    background-color: #3700ff;
+}
+
+h2 {
+    background-color: #fffb00;
+}
+
+h3 {
+    background-color: #ff00dd;
+}
+
+a {
+    background: rgb(255, 174, 0);
+}
+
+.extreme{
+    color: lightsteelblue;
+    font-size: 500%; 
+}
+        
+.navzone{
+    font-family: 'Impact';
+}
+        
+.content{
+    line-height: 50%;
+}
+        
+.prose{
+     text-align: left;       
+}
+
+@-webkit-keyframes sideways {
+    0% {margin-left: -100%;}
+    100% {margin-left: 100%;}
+}

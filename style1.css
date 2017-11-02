@@ -1,19 +1,39 @@
 body {
-
+    background-color: #bbbbbb;
+    text-align: center;
+    font-family: 'Impact';
+    line-height: 200%;
+    text-shadow: 2px 1px rgb(255, 255, 255);
 }
 
 h1 {
-
+    background-color: #ff6c6c;
 }
 
 h2 {
-
+    background-color: #ffae00;
 }
 
 h3 {
-
+    background-color: #fbff00;
 }
 
 a {
+    background: rgb(0, 238, 255);
+}
 
+.extreme{
+    text-transform: uppercase;
+}
+
+.navzone{
+    text-align: left;
+}
+
+.content{
+    text-shadow: 0px 0px;
+}
+
+.prose{
+    font-family: 'Times New Roman';
 }
