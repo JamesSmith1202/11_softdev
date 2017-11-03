@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'futurama_title';
+    src: url('fr-title-webfont.woff2');
+}
+
+@font-face {
+    font-family: 'futurama_body';
+    src: url('fr-bold-webfont.woff2');
+}
+
+body {
+    background-color: rgb(3, 196, 221);
+    background-position: center; 
+    background-image: url("futurama.png");
+    text-align: left;
+    font-family: 'futurama_body';
+    line-height: 200%;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.header{
+    font-family: 'futurama_title';
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgba(247, 0, 0, 0.8), rgba(129, 0, 0, 0.8));
+    text-shadow: 0px 0px rgb(255, 255, 255);
+}
+
+li:hover{
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+a:hover{
+    font-size: 200%;
+}
+
+a:visited{
+    color: pink;
+}
